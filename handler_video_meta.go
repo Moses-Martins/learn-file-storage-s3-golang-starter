@@ -116,5 +116,7 @@ func (cfg *apiConfig) handlerVideosRetrieve(w http.ResponseWriter, r *http.Reque
 		return
 	}
 
+
 	respondWithJSON(w, http.StatusOK, videos)
+	
 }
